@@ -7,3 +7,53 @@ $default-red: #a91f1d;
 $default-green: #27722f;
 $default-blue: #3d6072;
 
+@import 'bourbon/bourbon';
+
+html {
+	background-color: #000000;
+}
+
+header {
+	margin-top: -2%;
+	width: 100%;
+	position: relative;
+	background-color: $default-teal;
+	max-height: 100px;
+	border-bottom: 2px solid $default-tan;
+	z-index: 2;
+	img.brolik_logo {
+   		max-width: 100px;
+   		display: block;
+  		margin: 0 auto;
+  		padding: 3% 0% 2% 0%;
+   		}
+	}
+div#container {
+	width: 100%;
+	img.cover {
+		width: 100%;
+		margin-top: -30%;
+		-webkit-filter: opacity(.5);
+    	filter: opacity(.5);
+	}
+	section#todo_list {
+		height: 100px;
+		background-color: $default-white;
+		border-top: 2px solid $default-tan;
+		margin-top: -25%;
+		position: relative;
+		border-bottom: 10px solid $default-teal;
+		height: 500px;
+	}
+}
+
+
+	
+
+		
+
+
+
+	
+
+
