@@ -44,12 +44,66 @@ div#container {
 		position: relative;
 		border-bottom: 10px solid $default-teal;
 		height: 500px;
+		#active_list {
+			width: 35%;
+			float: left;
+			height: 100px;
+			// border: 2px solid black;
+			margin-left: 20%;
+			margin-top: 5%;
+			
+		}
+		#current_lists {
+			width: 20%;
+			float: left;
+			
+			// border: 2px solid black;
+			margin-left: 5%;
+			margin-top: 5%;
+			
+		}
 	}
 }
 
+div.display_list_items {
+	clear: both;
+	padding-top: 2%;
+	border-bottom: 2px solid $default-tan;
+	border-top: 2px solid $default-tan;
+	height: 200px;
 
 	
+}
+div.display_current_lists {
+	clear: both;
+	padding-top: 2%;
+	border-bottom: 1px solid $default-tan;
+	border-top: 1px solid $default-tan;
+	height: 150px;
+}
 
+h1.list_title {
+	float: left;
+
+	}
+
+
+div.crud {
+	border: 2px solid black;
+	// max-height: 20px;
+	// margin: 0 auto;
+	float: right;
+	margin-top: 5%;
+	width: 40%;
+	// padding: 2%;
+
+}
+	
+span.action {
+		padding: 0% 5%;
+		// display: inline-block;
+		float: right;
+	}
 		
 
 
